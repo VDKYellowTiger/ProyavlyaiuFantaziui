@@ -36,3 +36,5 @@ print(f'last element={last}, list after second pop={lst}')
 first = lst.pop(0)
 
 print(f'first element={first}, list after second pop={lst}')
+
+print(321 in lst, 555 in lst)
