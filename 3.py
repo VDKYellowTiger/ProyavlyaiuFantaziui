@@ -1,21 +1,15 @@
 #Списки:
 
-lst = []
+lst = list('строка, которая поделится на буквы')
 
-#print(lst)
 
-lst = [1, 2, 3]
+crt = (1, 3, 5, 7)
+print(type(crt))
 
-print(lst)
+lst1 = list(crt)
+print(type(lst1))
 
-print(lst[0])
-
-lst[0] = 111
-lst[1] = 22_222
-lst[-1] = 333
-lst[-2] = 'Second element'
-
-print(lst)
+print (lst, lst1)
 
 
 
